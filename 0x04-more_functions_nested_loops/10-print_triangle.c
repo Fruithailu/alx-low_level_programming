@@ -5,7 +5,7 @@
  * @size: the size of the squares triangle
  * Return: empty
  */
-void print_triangle (int size)
+void print_triangle(int size)
 {
 	int x, y, z;
 
