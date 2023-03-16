@@ -18,14 +18,14 @@ int is_digit(char *s)
 			return (0);
 		i++;
 	}
-	return (i);
+	return (1);
 }
 
 /**
  * _strlen - returns the length of a string
  * @s: string to evaluate
  *
- * Return: the length og the string
+ * Return: the length of the string
  */
 int _strlen(char *s)
 {
@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
 		return (1);
 	for (i = 0; i <= len1 + len2; i++)
 		result[i] = 0;
-	for (len1 = len1 - 1; len >= 0; len1--)
+	for (len1 = len1 - 1; len1 >= 0; len1--)
 	{
 		digit1 = s1[len1] - '0';
 		carry = 0;
